@@ -1,6 +1,6 @@
-<h2 align="centre"> ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀʏᴇʀ🔥</h2>
+<h2 align="centre"> ʟᴇᴢʏ ᴠᴄ ᴘʟᴀʏᴇʀ🔥</h2>
 
-### ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
+### ʟᴇᴢʏ ᴠᴄ ᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
 <p align="center"><a href="https://t.me/Zaid_Team1"><img src="https://telegra.ph/file/a5efad6976ca08e71ef69.png" width="300"></a></p>
 <p align="center">
@@ -67,12 +67,12 @@
 ## ʜᴇʀᴏᴋᴜ ᴅᴇᴘʟᴏʏᴍᴇɴᴛꜱ 💜
 ʜᴇʀᴏᴋᴜ ɪꜱ ᴛʜᴇ ᴇᴀꜱʏ ᴡᴀʏ ᴛᴏ ʜᴏꜱᴛ ᴜʀ ᴀᴘᴘꜱ
 
-[![ᴢᴠᴄ ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itsunknown-12/Zaid-Vc-Player)
+[![ᴢᴠᴄ ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cat-of-tg/Zaid-Vc-Player)
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 🚄
 ꜰᴏʀ ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ ᴍᴀᴋᴇ [Necessary Variables Here](https://github.com/Itsunknown-12/Zaid-Vc-Player/blob/main/example.env), ᴜ ʜᴀᴠᴇ ᴛᴏ ꜰɪʟʟ.
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Itsunknown-12/Zaid-Vc-Player&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,GROUP_SUPPORT,ASSISTANT_NAME,OWNER_NAME,OWNER_ID,DATABASE_URL,LOG_CHANNEL,BROADCAST_AS_COPY,UPDATES_CHANNEL,API_ID,API_HASH,PMPERMIT,SUDO_USERS,DURATION_LIMIT)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/cat-of-tg/Zaid-Vc-Player&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,GROUP_SUPPORT,ASSISTANT_NAME,OWNER_NAME,OWNER_ID,DATABASE_URL,LOG_CHANNEL,BROADCAST_AS_COPY,UPDATES_CHANNEL,API_ID,API_HASH,PMPERMIT,SUDO_USERS,DURATION_LIMIT)
 
 ### ꜱᴘᴇᴄɪᴀʟ ᴄʀᴇᴀᴅɪᴛꜱ 💖
 - [Levina](https://github.com/levina-lab): ʀᴇᴀʟ ᴅᴇᴠ💞
@@ -80,4 +80,4 @@
 
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
-<a href="https://t.me/Zaid_Updates"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Zaid_Updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/team_lad"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/cat_of_tg"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
