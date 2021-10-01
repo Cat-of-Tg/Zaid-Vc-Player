@@ -33,7 +33,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>✨ **𝐁𝐡𝐞𝐥𝐜𝐨𝐦𝐞 {message.from_user.first_name}** \n
-💠 **[{BOT_NAME}](https://t.me/{BOT_USERNAME})«ʜᴇʟʟᴏ ᴡᴇʟᴄᴏᴍᴇ sɪʀ, ɪ ᴍ ʟᴇᴢʏ ᴍᴜsɪᴄ ʙᴏᴛ»
+**«ʜᴇʟʟᴏ ᴡᴇʟᴄᴏᴍᴇ sɪʀ, ɪ ᴍ ʟᴇᴢʏ ᴍᴜsɪᴄ ʙᴏᴛ»
 
 «ʟᴇᴢʏ ᴍᴜsɪᴄ ᴀʟʟᴏᴡ ʏᴏᴜ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ᴏɴ ɢʀᴏᴜᴘs ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ɴᴇᴡ ᴛᴇʟᴇɢʀᴀᴍ's ᴠᴏɪᴄᴇ ᴄʜᴀᴛs[⚡](https://telegra.ph/file/69d7d70c7667ef39994c4.jpg) »
 
