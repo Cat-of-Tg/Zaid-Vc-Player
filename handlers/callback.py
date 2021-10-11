@@ -10,12 +10,11 @@ from handlers.play import cb_admin_check
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>✨ **ʜᴇʟᴄᴏᴍᴇ ꜱɪʀ, ɪ ᴍ {query.message.from_user.mention}** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝗮𝗹𝗹𝗼𝘄 𝘆𝗼𝘂 𝘁𝗼 𝗽𝗹𝗮𝘆 𝗺𝘂𝘀𝗶𝗰 𝗼𝗻 𝗴𝗿𝗼𝘂𝗽𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘁𝗵𝗲 𝗻𝗲𝘄 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺'𝘀 𝘃𝗼𝗶𝗰𝗲 𝗰𝗵𝗮𝘁𝘀 𝐩𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐙𝐚𝐢𝐝 !**
-
-💡 **𝗙𝗶𝗻𝗱 𝗼𝘂𝘁 𝗮𝗹𝗹 𝘁𝗵𝗲 𝗕𝗼𝘁'𝘀 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗲𝘆 𝘄𝗼𝗿𝗸 𝗯𝘆 𝗰𝗹𝗶𝗰𝗸𝗶𝗻𝗴 𝗼𝗻 𝘁𝗵𝗲 »  𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗯𝘂𝘁𝘁𝗼𝗻 !**
-
-❓ **𝗙𝗼𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 𝗮𝗯𝗼𝘂𝘁 𝗮𝗹𝗹 𝗳𝗲𝗮𝘁𝘂𝗿𝗲 𝗼𝗳 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁, 𝗷𝘂𝘀𝘁 𝘁𝘆𝗽𝗲 /help**
+                f"""<b>✨ **𝐁𝐡𝐞𝐥𝐜𝐨𝐦𝐞 {message.from_user.first_name}** \n
+**«ʜᴇʟʟᴏ ᴡᴇʟᴄᴏᴍᴇ sɪʀ, ɪ ᴍ ʟᴇᴢʏ ᴍᴜsɪᴄ ʙᴏᴛ»
+«ʟᴇᴢʏ ᴍᴜsɪᴄ ᴀʟʟᴏᴡ ʏᴏᴜ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ᴏɴ ɢʀᴏᴜᴘs ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ɴᴇᴡ ᴛᴇʟᴇɢʀᴀᴍ's ᴠᴏɪᴄᴇ ᴄʜᴀᴛs[⚡](https://telegra.ph/file/69d7d70c7667ef39994c4.jpg) »
+«ғɪɴᴅ ᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ʙᴏᴛs ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ»
+ғᴏʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ᴏғ ᴛʜɪs ʙᴏᴛ, ᴊᴜsᴛ ᴛʏᴘᴇ /help**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
@@ -30,7 +29,7 @@ async def cbstart(_, query: CallbackQuery):
                          " ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        " ᴏᴡɴᴇʀ", url=f"https://t.me/ok_bie_bot")
+                        " ᴏᴡɴᴇʀ", url=f"https://t.me/cat_Of_tg")
                 ],[
                     InlineKeyboardButton(
                         "ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/teamladz_bothub"
@@ -39,7 +38,7 @@ async def cbstart(_, query: CallbackQuery):
                         "ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/team_lad")
                 ],[
                     InlineKeyboardButton(
-                        "ᴄᴀᴛ ʜᴜʙ", url="https://t.me/cat_of_tg")
+                        "ᴍᴜsɪᴄ ᴀɴᴅ ᴄʜᴀᴛ", url="https://t.me/music_and_chats")
                 ],
             
             ]
@@ -60,10 +59,10 @@ async def cbhelp(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "💤 ʙᴀꜱɪᴄ ᴄᴍᴅꜱ", callback_data="cbbasic"
+                        " ʙᴀꜱɪᴄ ᴄᴍᴅꜱ", callback_data="cbbasic"
                     ),
                     InlineKeyboardButton(
-                        "👀 ᴀᴅᴠᴀᴄᴇᴅ ᴄᴍᴅꜱ", callback_data="cbadvanced"
+                        " ᴀᴅᴠᴀᴄᴇᴅ ᴄᴍᴅꜱ", callback_data="cbadvanced"
                     )
                 ],
                 [
@@ -71,7 +70,7 @@ async def cbhelp(_, query: CallbackQuery):
                         "ᴀᴅᴍɪɴ ᴄᴍᴅꜱ", callback_data="cbadmin"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴜᴅᴏ ᴡᴀʟᴇ ᴋ ʟɪᴇ", callback_data="cbsudo"
+                        "ꜱᴜᴅᴏ", callback_data="cbsudo"
                     )
                 ],
                 [
@@ -146,7 +145,7 @@ async def cbadvanced(_, query: CallbackQuery):
 /ping - check the bot ping status
 /uptime - check the bot uptime status
 
-⚡ __Powered by {BOT_NAME} ʟᴇᴢʏ__""",
+⚡ __Powered by {BOT_NAME} ʟᴀᴅ__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -272,7 +271,7 @@ async def cbguide(_, query: CallbackQuery):
 
 1.) **first, add me to your group**.
 2.) **then promote me as admin and give all permissions except anonymous admin**.
-3.) **add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her**.
+3.) **add @lezy_assistant to your group or type /userbotjoin to invite her**.
 4.) **turn on the voice chat first before start to play music**.
 
 ⚡ __Powered by {BOT_NAME} ᴢᴀɪᴅ__""",
@@ -463,7 +462,7 @@ async def cbguides(_, query: CallbackQuery):
 
 1.) first, add me to your group.
 2.) then promote me as admin and give all permissions except anonymous admin.
-3.) add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.
+3.) add @lezy_assistant to your group or type /userbotjoin to invite her.
 4.) turn on the voice chat first before start to play music.
 
 ⚡ __Powered by {BOT_NAME} ʟᴀᴅ__""",
